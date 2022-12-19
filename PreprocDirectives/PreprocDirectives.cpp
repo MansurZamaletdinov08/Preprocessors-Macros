@@ -10,7 +10,7 @@ std::cout << "Работаю в режиме тренировки";
 #endif
 
 #if MODE == 1
-//std::cout << "Работаю в боевом режиме.";
+std::cout << "Работаю в боевом режиме.";
 #define add(type, a, b) ((a) + (b))
 
 #else MODE
